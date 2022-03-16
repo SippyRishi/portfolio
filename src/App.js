@@ -7,7 +7,7 @@ import { FaSun, FaMoon, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa
 import Header from "./components/Header";
 import Profile from "./components/profile";
 import Social  from "./components/social";
-import ParticlesBackground from "./components/ParticlesBackground";
+
 
 
   
@@ -19,6 +19,7 @@ function App() {
   return (
   
     <VStack p={5}>
+  
       <Flex w="100%">
         <Heading
           ml="8" size="md" fontWeight='semibold' color="cyan.400">imRishi</Heading>
@@ -32,7 +33,7 @@ function App() {
       <Header></Header>
       <Social></Social>
       <Profile></Profile>
-       <ParticlesBackground />
+     
     </VStack>
   
   );
